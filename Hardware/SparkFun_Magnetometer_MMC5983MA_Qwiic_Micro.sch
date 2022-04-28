@@ -22751,7 +22751,7 @@ The MMC5983MA is an AEC-Q100 qualified complete 3-axis magnetic sensor with on-c
 <sheets>
 <sheet>
 <plain>
-<text x="173.736" y="116.332" size="1.778" layer="97" font="vector" align="top-left">Cut traces to remove I2C
+<text x="209.296" y="149.352" size="1.778" layer="97" font="vector" align="top-left">Cut traces to remove I2C
 pull-up resistors.</text>
 <wire x1="0" y1="83.82" x2="83.82" y2="83.82" width="0.2032" layer="97" style="longdash"/>
 <wire x1="83.82" y1="83.82" x2="114.3" y2="83.82" width="0.2032" layer="97" style="longdash"/>
@@ -22759,7 +22759,7 @@ pull-up resistors.</text>
 <wire x1="114.3" y1="185.42" x2="114.3" y2="116.84" width="0.2032" layer="97" style="longdash"/>
 <text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v01</text>
 <text x="177.8" y="180.34" size="2.54" layer="94" font="vector" align="center">Jumpers</text>
-<text x="152.4" y="129.54" size="1.778" layer="97" font="vector">Cut trace to
+<text x="152.4" y="114.3" size="1.778" layer="97" font="vector">Cut trace to
 disconnect Power
 LED.</text>
 <text x="71.12" y="78.74" size="2.54" layer="94" font="vector" align="center">Connectors</text>
@@ -22784,51 +22784,51 @@ VDDIO Range: 2.8V - 3.6V</text>
 </instance>
 <instance part="LOGO2" gate="G$1" x="158.242" y="46.228" smashed="yes"/>
 <instance part="STANDOFF3" gate="G$1" x="241.3" y="30.48" smashed="yes"/>
-<instance part="R1" gate="G$1" x="162.56" y="101.6" smashed="yes" rot="R90">
-<attribute name="NAME" x="161.0614" y="97.79" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="165.862" y="97.79" size="1.778" layer="96" font="vector" rot="R90"/>
+<instance part="R1" gate="G$1" x="198.12" y="134.62" smashed="yes" rot="R90">
+<attribute name="NAME" x="196.6214" y="130.81" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="201.422" y="130.81" size="1.778" layer="96" font="vector" rot="R90"/>
 </instance>
-<instance part="R2" gate="G$1" x="177.8" y="101.6" smashed="yes" rot="R90">
-<attribute name="NAME" x="176.3014" y="97.79" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="181.102" y="97.79" size="1.778" layer="96" font="vector" rot="R90"/>
+<instance part="R2" gate="G$1" x="213.36" y="134.62" smashed="yes" rot="R90">
+<attribute name="NAME" x="211.8614" y="130.81" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="216.662" y="130.81" size="1.778" layer="96" font="vector" rot="R90"/>
 </instance>
-<instance part="SUPPLY2" gate="G$1" x="170.18" y="116.84" smashed="yes">
-<attribute name="VALUE" x="169.164" y="120.396" size="1.778" layer="96" font="vector"/>
+<instance part="SUPPLY2" gate="G$1" x="205.74" y="149.86" smashed="yes">
+<attribute name="VALUE" x="204.724" y="153.416" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="FID1" gate="G$1" x="236.22" y="25.4" smashed="yes"/>
 <instance part="FID2" gate="G$1" x="238.76" y="25.4" smashed="yes"/>
-<instance part="I2C_PU" gate="G$1" x="170.18" y="109.22" smashed="yes" rot="MR270">
-<attribute name="NAME" x="165.1" y="106.299" size="1.778" layer="95" font="vector" rot="MR180"/>
+<instance part="I2C_PU" gate="G$1" x="205.74" y="142.24" smashed="yes" rot="MR270">
+<attribute name="NAME" x="200.66" y="139.319" size="1.778" layer="95" font="vector" rot="MR180"/>
 </instance>
-<instance part="J1" gate="G$1" x="86.36" y="50.8" smashed="yes">
-<attribute name="VALUE" x="66.04" y="45.466" size="1.778" layer="96" font="vector" align="top-left"/>
-<attribute name="NAME" x="81.28" y="58.674" size="1.778" layer="95" font="vector"/>
+<instance part="J1" gate="G$1" x="93.98" y="50.8" smashed="yes">
+<attribute name="VALUE" x="73.66" y="45.466" size="1.778" layer="96" font="vector" align="top-left"/>
+<attribute name="NAME" x="88.9" y="58.674" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="FD1" gate="G$1" x="241.3" y="25.4" smashed="yes"/>
 <instance part="FD2" gate="G$1" x="243.84" y="25.4" smashed="yes"/>
 <instance part="LOGO1" gate="G$1" x="180.34" y="40.64" smashed="yes"/>
-<instance part="SUPPLY1" gate="G$1" x="96.52" y="58.42" smashed="yes">
-<attribute name="VALUE" x="95.504" y="61.976" size="1.778" layer="96" font="vector"/>
+<instance part="SUPPLY1" gate="G$1" x="104.14" y="58.42" smashed="yes">
+<attribute name="VALUE" x="103.124" y="61.976" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND3" gate="1" x="96.52" y="43.18" smashed="yes">
-<attribute name="VALUE" x="93.98" y="40.64" size="1.778" layer="96" font="vector"/>
+<instance part="GND3" gate="1" x="104.14" y="43.18" smashed="yes">
+<attribute name="VALUE" x="101.6" y="40.64" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="D1" gate="G$1" x="149.86" y="149.86" smashed="yes">
-<attribute name="NAME" x="146.431" y="145.288" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="151.765" y="145.288" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<instance part="D1" gate="G$1" x="149.86" y="134.62" smashed="yes">
+<attribute name="NAME" x="146.431" y="130.048" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="151.765" y="130.048" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
-<instance part="R4" gate="G$1" x="149.86" y="160.02" smashed="yes" rot="R90">
-<attribute name="NAME" x="148.336" y="160.02" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="151.384" y="160.02" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R4" gate="G$1" x="149.86" y="144.78" smashed="yes" rot="R90">
+<attribute name="NAME" x="148.336" y="144.78" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="151.384" y="144.78" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="LED" gate="G$1" x="149.86" y="137.16" smashed="yes" rot="R90">
-<attribute name="NAME" x="157.48" y="140.208" size="1.778" layer="95" font="vector" rot="R180"/>
+<instance part="LED" gate="G$1" x="149.86" y="121.92" smashed="yes" rot="R90">
+<attribute name="NAME" x="157.48" y="124.968" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
-<instance part="SUPPLY3" gate="G$1" x="149.86" y="167.64" smashed="yes">
-<attribute name="VALUE" x="148.844" y="171.196" size="1.778" layer="96" font="vector"/>
+<instance part="SUPPLY3" gate="G$1" x="149.86" y="152.4" smashed="yes">
+<attribute name="VALUE" x="148.844" y="155.956" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND7" gate="1" x="149.86" y="127" smashed="yes">
-<attribute name="VALUE" x="147.32" y="124.46" size="1.778" layer="96" font="vector"/>
+<instance part="GND7" gate="1" x="149.86" y="111.76" smashed="yes">
+<attribute name="VALUE" x="147.32" y="109.22" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="TP1" gate="G$1" x="101.6" y="101.6" smashed="yes">
 <attribute name="NAME" x="106.172" y="100.838" size="1.778" layer="95" font="vector"/>
@@ -22843,9 +22843,9 @@ VDDIO Range: 2.8V - 3.6V</text>
 <attribute name="VALUE" x="98.044" y="107.696" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="LOGO3" gate="G$1" x="190.5" y="35.56" smashed="yes"/>
-<instance part="J3" gate="G$1" x="33.02" y="35.56" smashed="yes">
-<attribute name="VALUE" x="30.48" y="30.734" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="30.48" y="41.148" size="1.778" layer="95" font="vector"/>
+<instance part="J3" gate="G$1" x="43.18" y="48.26" smashed="yes">
+<attribute name="VALUE" x="40.64" y="43.434" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="40.64" y="53.848" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="U2" gate="G$1" x="43.18" y="111.76" smashed="yes">
 <attribute name="NAME" x="43.18" y="128.27" size="1.778" layer="95"/>
@@ -22878,8 +22878,8 @@ VDDIO Range: 2.8V - 3.6V</text>
 <instance part="SUPPLY9" gate="G$1" x="68.58" y="141.986" smashed="yes">
 <attribute name="VALUE" x="68.58" y="144.78" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="GND4" gate="1" x="43.18" y="30.48" smashed="yes">
-<attribute name="VALUE" x="40.64" y="27.94" size="1.778" layer="96" font="vector"/>
+<instance part="GND4" gate="1" x="53.34" y="43.18" smashed="yes">
+<attribute name="VALUE" x="50.8" y="40.64" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="TP4" gate="G$1" x="101.6" y="93.98" smashed="yes">
 <attribute name="NAME" x="106.172" y="93.218" size="1.778" layer="95" font="vector"/>
@@ -22897,13 +22897,13 @@ VDDIO Range: 2.8V - 3.6V</text>
 <net name="GND" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="93.98" y1="48.26" x2="96.52" y2="48.26" width="0.1524" layer="91" style="longdash"/>
-<wire x1="96.52" y1="48.26" x2="96.52" y2="45.72" width="0.1524" layer="91" style="longdash"/>
+<wire x1="101.6" y1="48.26" x2="104.14" y2="48.26" width="0.1524" layer="91" style="longdash"/>
+<wire x1="104.14" y1="48.26" x2="104.14" y2="45.72" width="0.1524" layer="91" style="longdash"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="LED" gate="G$1" pin="1"/>
-<wire x1="149.86" y1="132.08" x2="149.86" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="116.84" x2="149.86" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -22923,9 +22923,9 @@ VDDIO Range: 2.8V - 3.6V</text>
 <pinref part="C5" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="40.64" y1="35.56" x2="43.18" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="48.26" x2="53.34" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="43.18" y1="35.56" x2="43.18" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="48.26" x2="53.34" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="J3" gate="G$1" pin="1"/>
 </segment>
 <segment>
@@ -22938,14 +22938,14 @@ VDDIO Range: 2.8V - 3.6V</text>
 <net name="SCL" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="4"/>
-<wire x1="93.98" y1="55.88" x2="99.06" y2="55.88" width="0.1524" layer="91" style="longdash"/>
-<label x="99.06" y="55.88" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="101.6" y1="55.88" x2="106.68" y2="55.88" width="0.1524" layer="91" style="longdash"/>
+<label x="106.68" y="55.88" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="162.56" y1="96.52" x2="162.56" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="91.44" x2="180.34" y2="91.44" width="0.1524" layer="91"/>
-<label x="180.34" y="91.44" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="198.12" y1="129.54" x2="198.12" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="124.46" x2="215.9" y2="124.46" width="0.1524" layer="91"/>
+<label x="215.9" y="124.46" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="TP3" gate="G$1" pin="1"/>
@@ -22962,18 +22962,18 @@ VDDIO Range: 2.8V - 3.6V</text>
 <segment>
 <pinref part="I2C_PU" gate="G$1" pin="2"/>
 <pinref part="SUPPLY2" gate="G$1" pin="3.3V"/>
-<wire x1="170.18" y1="116.84" x2="170.18" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="149.86" x2="205.74" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="93.98" y1="50.8" x2="96.52" y2="50.8" width="0.1524" layer="91" style="longdash"/>
-<wire x1="96.52" y1="50.8" x2="96.52" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="50.8" x2="104.14" y2="50.8" width="0.1524" layer="91" style="longdash"/>
+<wire x1="104.14" y1="50.8" x2="104.14" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="SUPPLY3" gate="G$1" pin="3.3V"/>
-<wire x1="149.86" y1="165.1" x2="149.86" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="149.86" x2="149.86" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="TP1" gate="G$1" pin="1"/>
@@ -23003,37 +23003,37 @@ VDDIO Range: 2.8V - 3.6V</text>
 <net name="N$5" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="162.56" y1="106.68" x2="162.56" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="139.7" x2="198.12" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="I2C_PU" gate="G$1" pin="1"/>
-<wire x1="162.56" y1="109.22" x2="165.1" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="142.24" x2="200.66" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="I2C_PU" gate="G$1" pin="3"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="175.26" y1="109.22" x2="177.8" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="109.22" x2="177.8" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="142.24" x2="213.36" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="142.24" x2="213.36" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
 <pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="149.86" y1="154.94" x2="149.86" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="139.7" x2="149.86" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
 <pinref part="LED" gate="G$1" pin="2"/>
-<wire x1="149.86" y1="144.78" x2="149.86" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="129.54" x2="149.86" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="INT" class="0">
 <segment>
-<wire x1="43.18" y1="38.1" x2="40.64" y2="38.1" width="0.1524" layer="91"/>
-<label x="43.18" y="38.1" size="1.27" layer="95" xref="yes"/>
+<wire x1="53.34" y1="50.8" x2="50.8" y2="50.8" width="0.1524" layer="91"/>
+<label x="53.34" y="50.8" size="1.27" layer="95" xref="yes"/>
 <pinref part="J3" gate="G$1" pin="2"/>
 </segment>
 <segment>
@@ -23066,8 +23066,8 @@ VDDIO Range: 2.8V - 3.6V</text>
 <net name="SDA" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="3"/>
-<wire x1="93.98" y1="53.34" x2="99.06" y2="53.34" width="0.1524" layer="91" style="longdash"/>
-<label x="99.06" y="53.34" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="101.6" y1="53.34" x2="106.68" y2="53.34" width="0.1524" layer="91" style="longdash"/>
+<label x="106.68" y="53.34" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="SDA/SDI"/>
@@ -23076,9 +23076,9 @@ VDDIO Range: 2.8V - 3.6V</text>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="177.8" y1="96.52" x2="177.8" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="93.98" x2="180.34" y2="93.98" width="0.1524" layer="91"/>
-<label x="180.34" y="93.98" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="213.36" y1="129.54" x2="213.36" y2="127" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="127" x2="215.9" y2="127" width="0.1524" layer="91"/>
+<label x="215.9" y="127" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="TP2" gate="G$1" pin="1"/>
