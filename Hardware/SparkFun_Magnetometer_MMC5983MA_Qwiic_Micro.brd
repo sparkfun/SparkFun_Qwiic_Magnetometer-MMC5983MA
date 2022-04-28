@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -55,7 +55,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -201,8 +201,6 @@
 <wire x1="0" y1="0" x2="19.05" y2="0" width="0.2032" layer="20"/>
 <wire x1="19.05" y1="0" x2="19.05" y2="7.62" width="0.2032" layer="20"/>
 <text x="2.422525" y="0.314325" size="0.8128" layer="16" font="vector" ratio="22" rot="MR0">v01</text>
-<dimension x1="0" y1="8.89" x2="0" y2="0" x3="-8.636" y3="4.445" textsize="1.778" textratio="15" layer="47" unit="inch" visible="yes"/>
-<dimension x1="19.05" y1="8.89" x2="0" y2="8.89" x3="9.525" y3="22.86" textsize="1.778" textratio="15" layer="47" unit="inch" visible="yes"/>
 <rectangle x1="8.89" y1="3.4036" x2="8.9408" y2="3.7084" layer="41"/>
 <wire x1="14.2494" y1="4.752975" x2="12.3444" y2="4.752975" width="0.254" layer="22"/>
 <wire x1="14.2494" y1="4.752975" x2="13.9954" y2="4.498975" width="0.254" layer="22"/>
@@ -216,8 +214,12 @@
 <wire x1="12.0904" y1="5.2832" x2="10.8712" y2="4.064" width="0.254" layer="22"/>
 <wire x1="10.8204" y1="5.334" x2="12.0904" y2="4.064" width="0.254" layer="22"/>
 <dimension x1="13.9446" y1="3.81" x2="13.97" y2="0" x3="25.4" y3="1.905" textsize="1.778" layer="47" dtype="vertical" unit="inch"/>
-<dimension x1="2.54" y1="3.81" x2="2.54" y2="0" x3="-12.7" y3="1.905" textsize="1.778" layer="47" dtype="vertical" unit="inch"/>
-<dimension x1="6.4008" y1="7.6708" x2="0" y2="7.62" x3="3.2004" y3="11.43" textsize="1.778" layer="47" dtype="horizontal" unit="inch"/>
+<dimension x1="19.05" y1="7.62" x2="0" y2="7.62" x3="9.525" y3="16.764" textsize="1.778" layer="47" dtype="horizontal" unit="inch"/>
+<dimension x1="0" y1="7.62" x2="0" y2="0" x3="-6.096" y3="3.81" textsize="1.778" layer="47" dtype="horizontal" unit="inch"/>
+<dimension x1="8.89" y1="3.81" x2="0" y2="4.064" x3="4.445" y3="12.7" textsize="1.778" layer="47" dtype="horizontal" unit="inch"/>
+<dimension x1="2.54" y1="3.81" x2="0" y2="4.064" x3="1.27" y3="-3.302" textsize="1.778" layer="47" dtype="horizontal" unit="inch"/>
+<dimension x1="4.826" y1="1.016" x2="0" y2="1.016" x3="2.413" y3="-6.35" textsize="1.778" layer="47" dtype="horizontal" unit="inch"/>
+<dimension x1="4.826" y1="1.016" x2="4.826" y2="0" x3="-1.27" y3="0.508" textsize="1.778" layer="47" dtype="vertical" unit="inch"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -1966,9 +1968,9 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </pass>
 </autorouter>
 <elements>
-<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-19.05" y="-11.43" smashed="yes">
-<attribute name="DESIGNER" value="Elias Santistevan" x="12.7" y="-11.43" size="1.778" layer="51" font="vector"/>
-<attribute name="REV" value="" x="-19.05" y="-11.43" size="1.778" layer="27" display="off"/>
+<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-18.796" y="-19.05" smashed="yes">
+<attribute name="DESIGNER" value="Elias Santistevan" x="12.954" y="-19.05" size="1.778" layer="51" font="vector"/>
+<attribute name="REV" value="" x="-18.796" y="-19.05" size="1.778" layer="27" display="off"/>
 </element>
 <element name="LOGO2" library="SparkFun-Aesthetics" package="OSHW-LOGO-MINI" value="OSHW-LOGOMINI" x="1.4224" y="1.20015" smashed="yes" rot="MR0"/>
 <element name="STANDOFF3" library="SparkFun-Hardware" package="STAND-OFF-TIGHT" value="STAND-OFFTIGHT" x="2.54" y="3.81" smashed="yes"/>
@@ -1995,7 +1997,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="FD1" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="2.1082" y="6.096" smashed="yes" rot="MR0"/>
 <element name="FD2" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="13.6652" y="0.6096" smashed="yes" rot="MR0"/>
-<element name="LOGO1" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="QWIIC_LOGO_4MM" x="2.54" y="-2.7432" smashed="yes"/>
+<element name="LOGO1" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="QWIIC_LOGO_4MM" x="23.876" y="14.5288" smashed="yes"/>
 <element name="D1" library="ISM330DHCX" package="0402-TIGHT" value="RED" x="12.5476" y="6.838340625" smashed="yes">
 <attribute name="NAME" x="12.5476" y="7.473340625" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="VALUE" value="RED" x="12.5476" y="6.203340625" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
@@ -2009,7 +2011,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="NAME" x="12.2682" y="5.08" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="12.2682" y="7.366" size="0.6096" layer="28" font="vector" ratio="20" rot="MR180" align="top-center"/>
 </element>
-<element name="U$29" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="" x="7.0358" y="-2.5146" smashed="yes"/>
+<element name="U$29" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="" x="28.3718" y="14.7574" smashed="yes"/>
 <element name="U$8" library="ISMTopMini" package="X2114" value="" x="13.0302" y="4.0132" smashed="yes" rot="MR0"/>
 <element name="U$9" library="ISMTopMini" package="Y2115" value="" x="11.9484" y="2.9718" smashed="yes" rot="MR0"/>
 <element name="U$10" library="ISMTopMini" package="Z2116" value="" x="11.3538" y="6.0452" smashed="yes" rot="MR0"/>
