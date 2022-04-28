@@ -22744,7 +22744,6 @@ The MMC5983MA is an AEC-Q100 qualified complete 3-axis magnetic sensor with on-c
 <part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device="">
 <attribute name="SPICEPREFIX" value="G"/>
 </part>
-<part name="TP4" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3" value="TEST-POINT3"/>
 <part name="TP5" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3" value="TEST-POINT3"/>
 <part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 </parts>
@@ -22881,14 +22880,11 @@ VDDIO Range: 2.8V - 3.6V</text>
 <instance part="GND4" gate="1" x="53.34" y="43.18" smashed="yes">
 <attribute name="VALUE" x="50.8" y="40.64" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="TP4" gate="G$1" x="101.6" y="93.98" smashed="yes">
+<instance part="TP5" gate="G$1" x="101.6" y="93.98" smashed="yes">
 <attribute name="NAME" x="106.172" y="93.218" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="TP5" gate="G$1" x="101.6" y="91.44" smashed="yes">
-<attribute name="NAME" x="106.172" y="90.678" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="GND5" gate="1" x="99.06" y="86.36" smashed="yes">
-<attribute name="VALUE" x="99.06" y="86.106" size="1.778" layer="96" align="top-center"/>
+<instance part="GND5" gate="1" x="99.06" y="88.9" smashed="yes">
+<attribute name="VALUE" x="99.06" y="88.646" size="1.778" layer="96" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -22930,8 +22926,8 @@ VDDIO Range: 2.8V - 3.6V</text>
 </segment>
 <segment>
 <pinref part="TP5" gate="G$1" pin="1"/>
-<wire x1="99.06" y1="91.44" x2="101.6" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="91.44" x2="99.06" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="93.98" x2="101.6" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="93.98" x2="99.06" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 </segment>
 </net>
@@ -23040,11 +23036,6 @@ VDDIO Range: 2.8V - 3.6V</text>
 <pinref part="U2" gate="G$1" pin="INT"/>
 <wire x1="66.04" y1="114.3" x2="71.12" y2="114.3" width="0.1524" layer="91"/>
 <label x="71.12" y="114.3" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="TP4" gate="G$1" pin="1"/>
-<wire x1="99.06" y1="93.98" x2="101.6" y2="93.98" width="0.1524" layer="91"/>
-<label x="99.06" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CAP" class="0">
