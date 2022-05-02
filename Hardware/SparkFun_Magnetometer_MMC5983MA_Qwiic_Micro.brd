@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -55,7 +55,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -210,14 +210,16 @@
 <wire x1="3.768725" y1="11.20775" x2="3.209925" y2="11.20775" width="0.254" layer="22"/>
 <wire x1="6.0198" y1="9.045575" x2="6.0198" y2="8.537575" width="0.254" layer="22"/>
 <circle x="3.4925" y="8.78205" radius="0.5334" width="0.254" layer="22"/>
-<dimension x1="13.9446" y1="3.81" x2="13.97" y2="0" x3="25.4" y3="1.905" textsize="1.778" layer="47" dtype="vertical" unit="inch"/>
-<dimension x1="19.05" y1="7.62" x2="0" y2="7.62" x3="9.525" y3="16.764" textsize="1.778" layer="47" dtype="horizontal" unit="inch"/>
-<dimension x1="0" y1="7.62" x2="0" y2="0" x3="-6.096" y3="3.81" textsize="1.778" layer="47" dtype="horizontal" unit="inch"/>
-<dimension x1="8.89" y1="3.81" x2="0" y2="4.064" x3="4.445" y3="12.7" textsize="1.778" layer="47" dtype="horizontal" unit="inch"/>
-<dimension x1="2.54" y1="3.81" x2="0" y2="4.064" x3="1.27" y3="-3.302" textsize="1.778" layer="47" dtype="horizontal" unit="inch"/>
-<dimension x1="4.826" y1="1.016" x2="4.826" y2="0" x3="-1.27" y3="0.508" textsize="1.778" layer="47" dtype="vertical" unit="inch"/>
-<dimension x1="6.35" y1="1.016" x2="0" y2="1.016" x3="3.175" y3="-7.112" textsize="1.778" layer="47" unit="inch"/>
 <circle x="3.5052" y="8.7884" radius="0.2409625" width="0" layer="22"/>
+<dimension x1="1.27" y1="13.97" x2="0" y2="14.224" x3="0.635" y3="22.352" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
+<dimension x1="1.27" y1="13.97" x2="2.032" y2="0" x3="-8.128" y3="6.985" textsize="1.778" textratio="15" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="7.62" y1="0" x2="7.62" y2="19.05" x3="17.145" y3="9.525" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
+<dimension x1="0" y1="0" x2="7.62" y2="0" x3="3.81" y3="-8.5725" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
+<dimension x1="3.81" y1="10.16" x2="0" y2="10.4775" x3="1.905" y3="26.67" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
+<dimension x1="3.81" y1="10.16" x2="3.81" y2="0" x3="-3.81" y3="5.08" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
+<dimension x1="1.27" y1="13.97" x2="6.35" y2="13.97" x3="3.81" y3="20.0025" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
+<dimension x1="3.81" y1="5.1054" x2="7.62" y2="4.7625" x3="5.715" y3="-3.81" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
+<text x="-27.6225" y="-6.6675" size="1.778" layer="47" font="vector" ratio="15">Units in Inches</text>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -748,6 +750,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="0.637" y="0.789"/>
 </polygon>
 </package>
+<package name="BLANK">
+</package>
 </packages>
 </library>
 <library name="SparkFun-Connectors">
@@ -1107,27 +1111,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="0.31" y="-0.31"/>
 <vertex x="0.27" y="-0.26"/>
 </polygon>
-</package>
-</packages>
-</library>
-<library name="ISM330DHCX">
-<packages>
-<package name="0402-TIGHT">
-<smd name="A" x="-0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
-<smd name="C" x="0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
-<text x="0" y="0.562" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.562" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.002540625" layer="51"/>
-<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.002540625" layer="51"/>
-<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.002540625" layer="51"/>
-<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.002540625" layer="51"/>
-<rectangle x1="-0.5" y1="-0.25" x2="-0.3" y2="0.25" layer="51"/>
-<rectangle x1="0.3" y1="-0.25" x2="0.5" y2="0.25" layer="51" rot="R180"/>
-<wire x1="0.9262" y1="0.4262" x2="-0.9262" y2="0.4262" width="0.05" layer="39"/>
-<wire x1="-0.9262" y1="0.4262" x2="-0.9262" y2="-0.4262" width="0.05" layer="39"/>
-<wire x1="-0.9262" y1="-0.4262" x2="0.9262" y2="-0.4262" width="0.05" layer="39"/>
-<wire x1="0.9262" y1="-0.4262" x2="0.9262" y2="0.4262" width="0.05" layer="39"/>
-<wire x1="1.27" y1="0.381" x2="1.27" y2="-0.381" width="0.1524" layer="21"/>
 </package>
 </packages>
 </library>
@@ -2225,6 +2208,44 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="SparkFun-LED">
+<description>&lt;h3&gt;SparkFun LEDs&lt;/h3&gt;
+This library contains discrete LEDs for illumination or indication, but no displays.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="LED-0402">
+<description>&lt;h3&gt;LED-0402&lt;/h3&gt;
+&lt;p&gt;
+Standard 0402 sized pads with cathode pin indicator.
+&lt;/p&gt;</description>
+<smd name="A" x="-0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
+<smd name="C" x="0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
+<text x="0" y="0.562" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.562" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.002540625" layer="51"/>
+<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.002540625" layer="51"/>
+<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.002540625" layer="51"/>
+<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.002540625" layer="51"/>
+<rectangle x1="-0.5" y1="-0.25" x2="-0.3" y2="0.25" layer="51"/>
+<rectangle x1="0.3" y1="-0.25" x2="0.5" y2="0.25" layer="51" rot="R180"/>
+<wire x1="0.9262" y1="0.4262" x2="-0.9262" y2="0.4262" width="0.05" layer="39"/>
+<wire x1="-0.9262" y1="0.4262" x2="-0.9262" y2="-0.4262" width="0.05" layer="39"/>
+<wire x1="-0.9262" y1="-0.4262" x2="0.9262" y2="-0.4262" width="0.05" layer="39"/>
+<wire x1="0.9262" y1="-0.4262" x2="0.9262" y2="0.4262" width="0.05" layer="39"/>
+<wire x1="1.27" y1="0.381" x2="1.27" y2="-0.381" width="0.1524" layer="21"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2444,8 +2465,9 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="FD1" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="6.9088" y="16.9164" smashed="yes" rot="MR90"/>
 <element name="FD2" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="0.6096" y="5.3848" smashed="yes" rot="MR90"/>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="QWIIC_LOGO_4MM" x="0.9144" y="8.255" smashed="yes" rot="MR90"/>
-<element name="D1" library="ISM330DHCX" package="0402-TIGHT" value="RED" x="6.838340625" y="6.5024" smashed="yes" rot="R270">
+<element name="D1" library="SparkFun-LED" package="LED-0402" value="RED" x="6.838340625" y="6.5024" smashed="yes" rot="R270">
 <attribute name="NAME" x="7.473340625" y="6.5024" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-16757" x="6.838340625" y="6.5024" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="RED" x="6.203340625" y="6.5024" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="R4" library="SparkFun-Resistors" package="0402-TIGHT" value="1k" x="6.838340625" y="8.7376" smashed="yes" rot="R90">
@@ -2499,6 +2521,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="VALUE" x="5.08" y="12.192" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="U$4" library="topMini" package="#LED#15" value="" x="6.5532" y="3.81" smashed="yes" rot="MR90"/>
+<element name="LOGO3" library="SparkFun-Aesthetics" package="BLANK" value="SFE_LOGO_NAMEBLANK" x="-39.0525" y="-20.955" smashed="yes"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -2556,11 +2579,11 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="5.31" y1="6.4694" x2="4.7578" y2="7.0216" width="0.127" layer="1"/>
 <wire x1="3.056" y1="8.0438" x2="3.056" y2="8.662" width="0.127" layer="1"/>
 <wire x1="3.056" y1="8.0438" x2="3.4036" y2="7.6962" width="0.127" layer="1"/>
-<via x="5.5118" y="2.1844" extent="1-16" drill="0.3048"/>
-<wire x1="6.6675" y1="0.9525" x2="5.5118" y2="2.1082" width="0.127" layer="16"/>
-<wire x1="5.5118" y1="2.1844" x2="5.5118" y2="2.1082" width="0.127" layer="16"/>
-<wire x1="5.5118" y1="2.1844" x2="5.31" y2="2.3862" width="0.127" layer="1"/>
-<wire x1="5.31" y1="5.1054" x2="5.31" y2="2.3862" width="0.127" layer="1"/>
+<via x="5.588" y="2.54" extent="1-16" drill="0.3048"/>
+<wire x1="6.6675" y1="0.9525" x2="5.588" y2="2.032" width="0.127" layer="16"/>
+<wire x1="5.588" y1="2.54" x2="5.588" y2="2.032" width="0.127" layer="16"/>
+<wire x1="5.588" y1="2.54" x2="5.31" y2="2.818" width="0.127" layer="1"/>
+<wire x1="5.31" y1="5.1054" x2="5.31" y2="2.818" width="0.127" layer="1"/>
 <wire x1="4.1401" y1="7.37810625" x2="4.1401" y2="7.2645" width="0.127" layer="1"/>
 <wire x1="4.7578" y1="7.0216" x2="4.383" y2="7.0216" width="0.127" layer="1"/>
 <wire x1="4.383" y1="7.0216" x2="4.1401" y2="7.2645" width="0.127" layer="1"/>
@@ -2704,12 +2727,11 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="2.7748" y1="7.874" x2="3.6496" y2="6.9992" width="0.127" layer="1"/>
 <wire x1="1.7018" y1="8.128" x2="1.9558" y2="7.874" width="0.127" layer="1"/>
 <wire x1="1.9558" y1="7.874" x2="2.7748" y2="7.874" width="0.127" layer="1"/>
-<wire x1="4.31" y1="5.1054" x2="4.31" y2="2.0146" width="0.127" layer="1"/>
-<wire x1="4.31" y1="2.0146" x2="4.572" y2="1.7526" width="0.127" layer="1"/>
-<via x="4.572" y="1.7526" extent="1-16" drill="0.3048"/>
-<wire x1="4.7625" y1="1.4097" x2="4.572" y2="1.6002" width="0.127" layer="16"/>
-<wire x1="4.572" y1="1.7526" x2="4.572" y2="1.6002" width="0.127" layer="16"/>
-<wire x1="4.7625" y1="1.4097" x2="4.7625" y2="0.9525" width="0.127" layer="16"/>
+<wire x1="4.31" y1="5.1054" x2="4.31" y2="1.7098" width="0.127" layer="1"/>
+<wire x1="4.31" y1="1.7098" x2="4.318" y2="1.7018" width="0.127" layer="1"/>
+<via x="4.318" y="1.7018" extent="1-16" drill="0.3048"/>
+<wire x1="4.318" y1="1.7018" x2="4.318" y2="1.397" width="0.127" layer="16"/>
+<wire x1="4.7625" y1="0.9525" x2="4.318" y2="1.397" width="0.127" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
@@ -2720,9 +2742,9 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="19,16,e2536023a1ebe098"/>
-<approved hash="19,16,e1246f5c317bb473"/>
-<approved hash="19,16,c503f803e303e603"/>
+<approved hash="19,16,29f4ab84eb913ad2"/>
+<approved hash="19,16,e5daed7a5ef555da"/>
+<approved hash="19,16,011b01f501f00106"/>
 </errors>
 </board>
 </drawing>
