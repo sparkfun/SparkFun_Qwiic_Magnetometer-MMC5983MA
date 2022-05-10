@@ -24,7 +24,7 @@ Repository Contents
 
 Documentation
 --------------
-* **[Library](GitHub library URL)** - <LANGUAGE> library for the <PRODUCT NAME>.
+* **[Library](https://github.com/sparkfun/SparkFun_MMC5983MA_Magnetometer_Arduino_Library)** - Arduino library for the SparkFun_Qwiic_Magnetometer-MMC5983MA.
 * **[Hookup Guide](Learn.SparkFun URL)** - Basic hookup guide for the <PRODUCT NAME>.
 * **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
 * **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products. 
