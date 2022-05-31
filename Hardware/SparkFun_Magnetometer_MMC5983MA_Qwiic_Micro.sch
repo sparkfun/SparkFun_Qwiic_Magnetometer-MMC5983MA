@@ -22349,7 +22349,7 @@ pull-up resistors.</text>
 <wire x1="83.82" y1="83.82" x2="114.3" y2="83.82" width="0.2032" layer="97" style="longdash"/>
 <wire x1="114.3" y1="83.82" x2="248.92" y2="83.82" width="0.2032" layer="97" style="longdash"/>
 <wire x1="114.3" y1="185.42" x2="114.3" y2="116.84" width="0.2032" layer="97" style="longdash"/>
-<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v01</text>
+<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v10</text>
 <text x="177.8" y="180.34" size="2.54" layer="94" font="vector" align="center">Jumpers</text>
 <text x="152.4" y="114.3" size="1.778" layer="97" font="vector">Cut trace to
 disconnect Power
