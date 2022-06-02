@@ -22026,22 +22026,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <description>&lt;H3&gt;High performance magnetic sensor&lt;/H3&gt;
 
 ±8 Gauss, High Performance 3-axis Magnetic Sensor</description>
-<pin name="NC" x="-2.54" y="5.08" length="short" direction="nc"/>
-<pin name="GND" x="-2.54" y="2.54" length="short" direction="pwr"/>
-<pin name="VDD" x="-2.54" y="10.16" length="short" direction="pwr"/>
-<pin name="SCL/SCK" x="22.86" y="10.16" length="short" rot="R180"/>
-<pin name="SDA/SDI" x="22.86" y="12.7" length="short" rot="R180"/>
-<pin name="VDDIO" x="-2.54" y="12.7" length="short" direction="pwr"/>
-<pin name="SDO" x="22.86" y="7.62" length="short" direction="out" rot="R180"/>
-<pin name="CAP" x="-2.54" y="7.62" length="short" direction="pas"/>
-<wire x1="0" y1="0" x2="20.32" y2="0" width="0.254" layer="94"/>
-<wire x1="20.32" y1="0" x2="20.32" y2="15.24" width="0.254" layer="94"/>
-<wire x1="20.32" y1="15.24" x2="0" y2="15.24" width="0.254" layer="94"/>
-<wire x1="0" y1="15.24" x2="0" y2="0" width="0.254" layer="94"/>
-<text x="0" y="16.51" size="1.778" layer="95">&gt;NAME</text>
-<text x="0" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="!SPI_CS!" x="22.86" y="5.08" length="short" direction="in" rot="R180"/>
-<pin name="INT" x="22.86" y="2.54" length="short" direction="out" rot="R180"/>
+<pin name="NC" x="-12.7" y="-2.54" length="short" direction="nc"/>
+<pin name="GND" x="-12.7" y="-5.08" length="short" direction="pwr"/>
+<pin name="VDD" x="-12.7" y="2.54" length="short" direction="pwr"/>
+<pin name="SCL/SCK" x="15.24" y="2.54" length="short" rot="R180"/>
+<pin name="SDA/SDI" x="15.24" y="5.08" length="short" rot="R180"/>
+<pin name="VDDIO" x="-12.7" y="5.08" length="short" direction="pwr"/>
+<pin name="SDO" x="15.24" y="0" length="short" direction="out" rot="R180"/>
+<pin name="CAP" x="-12.7" y="0" length="short" direction="pas"/>
+<wire x1="-10.16" y1="-7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="12.7" y2="7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<text x="-10.16" y="8.89" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="!SPI_CS!" x="15.24" y="-2.54" length="short" direction="in" rot="R180"/>
+<pin name="INT" x="15.24" y="-5.08" length="short" direction="out" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -22364,6 +22364,8 @@ LED.</text>
 VDDIO Range: 2.8V - 3.6V</text>
 <text x="55.88" y="177.8" size="2.54" layer="94" font="vector" align="center">Magnetometer - MMC5983MA</text>
 <text x="53.34" y="161.29" size="1.27" layer="97" font="vector" align="center">I2C address: 0x30</text>
+<text x="33.782" y="65.786" size="1.778" layer="97" font="vector">PTH connectors only 
+accept 22AWG or smaller</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
@@ -22434,36 +22436,36 @@ VDDIO Range: 2.8V - 3.6V</text>
 <instance part="SUPPLY6" gate="G$1" x="99.06" y="104.14" smashed="yes">
 <attribute name="VALUE" x="98.044" y="107.696" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="U2" gate="G$1" x="43.18" y="111.76" smashed="yes">
-<attribute name="NAME" x="43.18" y="128.27" size="1.778" layer="95"/>
-<attribute name="VALUE" x="43.18" y="109.22" size="1.778" layer="96"/>
+<instance part="U2" gate="G$1" x="53.34" y="134.62" smashed="yes">
+<attribute name="NAME" x="43.18" y="143.51" size="1.778" layer="95"/>
+<attribute name="VALUE" x="43.18" y="124.46" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY8" gate="G$1" x="20.32" y="127" smashed="yes">
-<attribute name="VALUE" x="20.32" y="129.794" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY8" gate="G$1" x="22.86" y="142.24" smashed="yes">
+<attribute name="VALUE" x="22.86" y="145.034" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="GND1" gate="1" x="38.1" y="104.14" smashed="yes">
-<attribute name="VALUE" x="38.1" y="103.886" size="1.778" layer="96" align="top-center"/>
+<instance part="GND1" gate="1" x="38.1" y="119.38" smashed="yes">
+<attribute name="VALUE" x="38.1" y="119.126" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="C2" gate="G$1" x="20.32" y="111.76" smashed="yes">
-<attribute name="NAME" x="16.764" y="114.681" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="11.684" y="109.601" size="1.778" layer="96" font="vector"/>
+<instance part="C2" gate="G$1" x="22.86" y="127" smashed="yes">
+<attribute name="NAME" x="19.304" y="129.921" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="14.224" y="124.841" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND2" gate="1" x="20.32" y="104.14" smashed="yes">
-<attribute name="VALUE" x="20.32" y="103.886" size="1.778" layer="96" align="top-center"/>
+<instance part="GND2" gate="1" x="22.86" y="119.38" smashed="yes">
+<attribute name="VALUE" x="22.86" y="119.126" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="C5" gate="G$1" x="27.94" y="111.76" smashed="yes">
-<attribute name="NAME" x="29.464" y="114.681" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="29.464" y="109.601" size="1.778" layer="96" font="vector"/>
+<instance part="C5" gate="G$1" x="30.48" y="127" smashed="yes">
+<attribute name="NAME" x="32.004" y="129.921" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="32.004" y="124.841" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND9" gate="1" x="27.94" y="104.14" smashed="yes">
-<attribute name="VALUE" x="27.94" y="103.886" size="1.778" layer="96" align="top-center"/>
+<instance part="GND9" gate="1" x="30.48" y="119.38" smashed="yes">
+<attribute name="VALUE" x="30.48" y="119.126" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="R7" gate="G$1" x="68.58" y="134.62" smashed="yes" rot="R90">
-<attribute name="NAME" x="67.056" y="134.62" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="70.104" y="134.62" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R7" gate="G$1" x="71.12" y="149.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="69.596" y="149.86" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="72.644" y="149.86" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="SUPPLY9" gate="G$1" x="68.58" y="141.986" smashed="yes">
-<attribute name="VALUE" x="68.58" y="144.78" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY9" gate="G$1" x="71.12" y="157.226" smashed="yes">
+<attribute name="VALUE" x="71.12" y="160.02" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="TP5" gate="G$1" x="101.6" y="93.98" smashed="yes">
 <attribute name="NAME" x="106.172" y="93.218" size="1.778" layer="95" font="vector"/>
@@ -22501,18 +22503,18 @@ VDDIO Range: 2.8V - 3.6V</text>
 </segment>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="38.1" y1="114.3" x2="38.1" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="129.54" x2="38.1" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="129.54" x2="38.1" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="GND"/>
-<wire x1="38.1" y1="114.3" x2="40.64" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="20.32" y1="109.22" x2="20.32" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="124.46" x2="22.86" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="27.94" y1="109.22" x2="27.94" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="124.46" x2="30.48" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="2"/>
 </segment>
 <segment>
@@ -22547,8 +22549,8 @@ VDDIO Range: 2.8V - 3.6V</text>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="SCL/SCK"/>
-<wire x1="66.04" y1="121.92" x2="71.12" y2="121.92" width="0.1524" layer="91"/>
-<label x="71.12" y="121.92" size="1.27" layer="95" xref="yes"/>
+<wire x1="68.58" y1="137.16" x2="73.66" y2="137.16" width="0.1524" layer="91"/>
+<label x="73.66" y="137.16" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -22576,21 +22578,21 @@ VDDIO Range: 2.8V - 3.6V</text>
 </segment>
 <segment>
 <pinref part="SUPPLY8" gate="G$1" pin="3.3V"/>
-<wire x1="20.32" y1="127" x2="20.32" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="142.24" x2="22.86" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="VDDIO"/>
-<wire x1="20.32" y1="124.46" x2="40.64" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="139.7" x2="40.64" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="VDD"/>
-<wire x1="40.64" y1="121.92" x2="20.32" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="121.92" x2="20.32" y2="124.46" width="0.1524" layer="91"/>
-<junction x="20.32" y="124.46"/>
+<wire x1="40.64" y1="137.16" x2="22.86" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="137.16" x2="22.86" y2="139.7" width="0.1524" layer="91"/>
+<junction x="22.86" y="139.7"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="20.32" y1="116.84" x2="20.32" y2="121.92" width="0.1524" layer="91"/>
-<junction x="20.32" y="121.92"/>
+<wire x1="22.86" y1="132.08" x2="22.86" y2="137.16" width="0.1524" layer="91"/>
+<junction x="22.86" y="137.16"/>
 </segment>
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
 <pinref part="SUPPLY9" gate="G$1" pin="3.3V"/>
-<wire x1="68.58" y1="141.986" x2="68.58" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="157.226" x2="71.12" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -22626,8 +22628,8 @@ VDDIO Range: 2.8V - 3.6V</text>
 <net name="INT" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="INT"/>
-<wire x1="66.04" y1="114.3" x2="71.12" y2="114.3" width="0.1524" layer="91"/>
-<label x="71.12" y="114.3" size="1.27" layer="95" xref="yes"/>
+<wire x1="68.58" y1="129.54" x2="73.66" y2="129.54" width="0.1524" layer="91"/>
+<label x="73.66" y="129.54" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="63.5" y1="55.88" x2="60.96" y2="55.88" width="0.1524" layer="91"/>
@@ -22639,15 +22641,15 @@ VDDIO Range: 2.8V - 3.6V</text>
 <segment>
 <pinref part="U2" gate="G$1" pin="CAP"/>
 <pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="27.94" y1="116.84" x2="27.94" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="119.38" x2="27.94" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="132.08" x2="30.48" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="134.62" x2="30.48" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!MAG_CS!" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="!SPI_CS!"/>
-<wire x1="66.04" y1="116.84" x2="68.58" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="129.54" x2="68.58" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="132.08" x2="71.12" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="144.78" x2="71.12" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -22659,8 +22661,8 @@ VDDIO Range: 2.8V - 3.6V</text>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="SDA/SDI"/>
-<wire x1="66.04" y1="124.46" x2="71.12" y2="124.46" width="0.1524" layer="91"/>
-<label x="71.12" y="124.46" size="1.27" layer="95" xref="yes"/>
+<wire x1="68.58" y1="139.7" x2="73.66" y2="139.7" width="0.1524" layer="91"/>
+<label x="73.66" y="139.7" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
