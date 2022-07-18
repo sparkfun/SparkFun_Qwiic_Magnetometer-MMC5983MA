@@ -1,7 +1,7 @@
 # SparkFun_Qwiic_Magnetometer-MMC5983MA
 ========================================
 
-[![SparkFun Qwiic Magnetometer-MMC5983MA](URL for picture of part)](https://www.sparkfun.com/products/19921)
+[![SparkFun Qwiic Magnetometer-MMC5983MA](https://cdn.sparkfun.com/assets/parts/1/9/6/5/3/19921_03.jpg)](https://www.sparkfun.com/products/19921)
 
 [*SparkFun Qwiic Magnetometer-MMC5983MA (19921)*](https://www.sparkfun.com/products/19921)
 
